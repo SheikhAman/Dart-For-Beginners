@@ -57,3 +57,11 @@ bool isWorked = true;
 
 //   bool isLoading = true;
 // }
+
+//Dart Operators = The operators are special symbols that are used to carry out certain operation on the operands.
+/*
+void main() {
+  var sum = 20 + 30; // here + is Arithmetic operator  and = is assignment operator and  20 and 30 are operands
+  print(sum);
+}
+*/
