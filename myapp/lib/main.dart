@@ -65,3 +65,16 @@ void main() {
   print(sum);
 }
 */
+/*
+void main() {
+  // if else statement
+  var age = 50;
+  if (age < 40) {
+    print('young');
+  } else if (age < 15) {
+    print('child');
+  } else {
+    print('old');
+  }
+}
+*/
