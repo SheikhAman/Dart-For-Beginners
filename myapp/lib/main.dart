@@ -81,31 +81,65 @@ void main() {
 
 /*Switch Case Statement */
 
-void main() {
-  int a = 1;
-  switch (a) {
-    // switch ar vitore expression check korbe
-    case 1:
-      {
-        print('Balance Check');
-      }
+// void main() {
+//   int a = 1;
+//   switch (a) {  /* expression string othoba integer hobe */
+//     // switch ar vitore expression check korbe
+//     case 1: //case 1 is equal to the value so case 1 printed
+//       {
+//         print('Balance Check');
+//       }
 
+//       break;
+//     case 2:
+//       {
+//         print('Withdraw Balance');
+//       }
+
+//       break;
+//     case 3:
+//       {
+//         print('Other Check');
+//       }
+
+//       break;
+//     default:           /*kono case match na hole defult print hobe*/
+//       {
+//         print('Cancel');
+//       }
+//   }
+// }
+
+/*Enum data type Structure*/
+
+// enum enum_name{
+//   //set of Constant value
+// }
+
+enum ATM { CheckBalance, WithDraw, Other }
+
+void main() {
+  var perform = ATM.WithDraw;
+  switch (perform) {
+    case ATM.CheckBalance:
+      {
+        print('Check Balance');
+      }
       break;
-    case 2:
+
+    case ATM.WithDraw:
       {
         print('Withdraw Balance');
       }
-
       break;
-    case 3:
+    case ATM.Other:
       {
-        print('Other Check');
+        print('OTHER');
       }
-
       break;
     default:
       {
-        print('Cancel');
+        print('cancel');
       }
   }
 }
