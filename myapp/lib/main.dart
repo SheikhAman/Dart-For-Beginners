@@ -115,8 +115,8 @@ void main() {
 // enum enum_name{
 //   //set of Constant value
 // }
-
-enum ATM { CheckBalance, WithDraw, Other }
+/*
+enum ATM { CheckBalance, WithDraw, Other } // constant value
 
 void main() {
   var perform = ATM.WithDraw;
@@ -143,3 +143,21 @@ void main() {
       }
   }
 }
+*/
+
+/*
+ Ternary Operator syntax 
+
+ condition ? expone : ExpTwo
+*/
+
+// void main() {
+//   int age = 18; /* if else  statement*/
+//   // if (age > 17) {
+//   //   print('Adult');
+//   // } else {
+//   //   print('child');
+//   // }
+
+//   age > 17 ? print('Adult') : print('child'); //ternary  operator
+// }
