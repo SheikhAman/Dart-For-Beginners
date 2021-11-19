@@ -78,3 +78,34 @@ void main() {
   }
 }
 */
+
+/*Switch Case Statement */
+
+void main() {
+  int a = 1;
+  switch (a) {
+    // switch ar vitore expression check korbe
+    case 1:
+      {
+        print('Balance Check');
+      }
+
+      break;
+    case 2:
+      {
+        print('Withdraw Balance');
+      }
+
+      break;
+    case 3:
+      {
+        print('Other Check');
+      }
+
+      break;
+    default:
+      {
+        print('Cancel');
+      }
+  }
+}
