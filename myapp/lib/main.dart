@@ -195,3 +195,23 @@ increament / decrement
 //     i++; /*increment / decrement */
 //   }
 // }
+
+/* do while loop syntax */
+
+// int i  =1; /* varible initialization
+// do {
+//   code block to be executed
+//   increment/decrement;
+// }
+// while (condition) */condition*/
+
+/* do while example */
+// void main() {
+//   int i = 1;
+
+//   do {
+//     print(
+//         'number is : $i'); // condition check na kore akbar hole o statement print korbe do while loop a
+//     i++; /*icrement / decrement */
+//   } while (i <= 10); /* condition*/
+// }
