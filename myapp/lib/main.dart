@@ -259,3 +259,62 @@ subTwo() {
   print(sum);
 }
 */
+
+/* returning function */
+/*
+return_type fucntion_name() {
+  // statements
+  return value;
+}
+*/
+
+/* return korar karon hoche main function a value niye print korbo */
+/*
+void main() {
+  print(addTwo()); // function  call kora hoyeche
+  print(multiplyTwo());
+  print(divTwo());
+  print(subTwo());
+}
+
+int addTwo() {
+  //jokhon amara konno kisu return korbo tokhon je element return korbo tokhon se function sei element r value niye nibe
+  int a = 10;
+  int b = 40;
+  int sum = a + b;
+  return sum; // je type r value return korbo tar data type function r age bole dite hobe
+}
+
+int multiplyTwo() {
+  int a = 30;
+  int b = 20;
+  int mul = a * b;
+  return mul;
+}
+
+double divTwo() {
+  int a = 400;
+  int b = 20;
+  double div = (a / b);
+  return div;
+}
+
+int subTwo() {
+  int a = 100;
+  int b = 20;
+  int sum = a - b;
+  return sum;
+}
+*/
+
+/* 1 more example */
+/*
+void main() {
+  print(myFunction());
+}
+
+List myFunction() { // List return korse tai function data type List
+  List list = [1, 2, 3, 4, 5];
+  return list;
+}
+*/
