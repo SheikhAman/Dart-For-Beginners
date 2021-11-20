@@ -215,3 +215,47 @@ increament / decrement
 //     i++; /*icrement / decrement */
 //   } while (i <= 10); /* condition*/
 // }
+
+/* functions  syntax */
+/*
+function_name() {
+  //statements
+}
+*/
+/* function example */
+/*
+void main() {
+  addTwo(); // function  call kora hoyeche
+  multiplyTwo();
+  divTwo();
+  subTwo();
+}
+
+addTwo() {
+  int a = 10;
+  int b = 40;
+  int sum = a + b;
+  print(sum);
+}
+
+multiplyTwo() {
+  int a = 30;
+  int b = 20;
+  int mul = a * b;
+  print(mul);
+}
+
+divTwo() {
+  int a = 400;
+  int b = 20;
+  double div = (a / b);
+  print(div);
+}
+
+subTwo() {
+  int a = 100;
+  int b = 20;
+  int sum = a - b;
+  print(sum);
+}
+*/
