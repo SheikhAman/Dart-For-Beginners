@@ -176,3 +176,22 @@ void main() {
 //     print('Number is $i');
 //   }
 // }
+
+/* while loop  syntax*/
+/*
+variable initialization / start
+while (condition) {
+code block to be executed
+increament / decrement
+}
+*/
+/*while loop example */
+// void main() {
+//   var i = 1; /* variable initialization */
+
+//   while (i <= 10) {
+//     /*conddition*/
+//     print('the value of $i'); /*statement*/
+//     i++; /*increment / decrement */
+//   }
+// }
