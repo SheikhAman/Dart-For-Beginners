@@ -161,3 +161,18 @@ void main() {
 
 //   age > 17 ? print('Adult') : print('child'); //ternary  operator
 // }
+
+/*for loop syntax*/
+
+// void main() {
+//   for (int i = 0; i <= 10; i++) { /*for loop*/
+//     /*for (initialize ; condition; increment/decrement)*/
+//     print('The value of i : $i');
+//   }
+// }
+
+// void main() { /* for loop */
+//   for (int i = 1; i <= 100; i = i + 2) { /* i = 1+2 */
+//     print('Number is $i');
+//   }
+// }
